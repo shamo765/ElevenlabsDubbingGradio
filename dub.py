@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Initialize ElevenLabs client
-eleven = ElevenLabs(api_key=os.getenv("ELEVENLABS_API_KEY"))
+eleven = ElevenLabs(api_key="sk_20b1a5899d669aed061c48e8242efd55f43abf2445bfd0f3")
 
 # Define language options with codes
 languages: Dict[str, str] = {
