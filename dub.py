@@ -3,7 +3,7 @@ import os
 import time
 import json
 from typing import Optional, Dict
-from elevenlabs import ElevenLabs
+from elevenlabs.client import ElevenLabs
 from dotenv import load_dotenv
 
 # Load environment variables
