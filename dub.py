@@ -160,4 +160,4 @@ with gr.Blocks() as iface:
         outputs=url_output
     )
 
-iface.launch()
+iface.launch(share=True)
